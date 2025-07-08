@@ -1,0 +1,20 @@
+{
+  "name": "domain-events-typescript",
+  "version": "1.0.0",
+  "description": "Domain Events implementation with pure TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node src/main.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": ["domain-events", "typescript", "ddd", "clean-architecture"],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
