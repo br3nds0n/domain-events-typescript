@@ -16,7 +16,7 @@ export class UserRegisteredEvent implements IDomainEvent {
   }
 }
 
-export class UserEmailChanged implements IDomainEvent {
+export class UserEmailChangedEvent implements IDomainEvent {
   readonly eventId: string;
   readonly eventType = 'UserEmailChanged';
   readonly occurredOn: Date;
